@@ -29,7 +29,7 @@ public class MatrixUtil {
         final int[][] matrixC = new int[matrixSize][matrixSize];
 
 
-        double thatColumn[] = new double[matrixSize];
+        int thatColumn[] = new int[matrixSize];
 
         for (int j = 0; j < matrixSize; j++) {
             for (int k = 0; k < matrixSize; k++) {
